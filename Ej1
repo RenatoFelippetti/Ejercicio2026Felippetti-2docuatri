@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    int a, edad;
+
+    printf("Por favor introduzca el año en que nació: ");
+    scanf("%d", &a);
+    edad = 2026 - a;
+    printf("Su edad es de: %d años\n", edad);
+    return 0;
+}
