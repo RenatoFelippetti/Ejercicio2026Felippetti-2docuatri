@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main()
+{
+    int num;
+
+    scanf("%d", &num);
+
+    if (num == 1) {
+        printf("As");
+    }
+    if (num == 10) {
+        printf("Sota");
+    }
+    if (num == 11) {
+        printf("Caballo");
+    }
+    if (num == 12) {
+        printf("Rey");
+    }
+    if (num >= 2 && num <= 9) {
+        printf("No es as ni figura");
+    }
+    if (num > 12 || num < 1) {
+        printf("Este no es un número de una carta de la baraja española");
+    }
+
+    return 0;
+}
